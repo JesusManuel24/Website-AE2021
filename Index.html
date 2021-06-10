@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Index</title>
+    <style type="text/css">
+</style>
+
+    </style>
+</head>
+
+<body align="center">
+    <h1>Sleepy CLIPS</h1>
+    <nav>
+        <div id="Header">
+            <ul class="nav">
+                <li><a href="Clips.html">Clips</a></li>
+                <li><a href="Categories.html">Categories</a></li>
+                <li><a href="Best Clips.html">Best Clips</a></li>
+                <li><a href="Location.html">Location</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Know Us</h1>
+    <p> This page has been made as part of our class project, 
+    </br>in short our page is a place where users can upload their clips and share them with others, 
+    </br>although this is our first idea of ​​how it could become.</p>
+    <div id="wrapper">
+        <footer>
+            <div class="container">
+                We appreciate you to visit us ;)!
+            </div>
+        </footer>
+        <footer>
+            <script>
+                function popup() {
+                    alert("Thank you for visiting our website :)")
+                }
+                </script>
+                <button type="button" onclick="popup()">Say hello to this page</button>
+        </footer>
+    </div>
+    <div id="fechahoy"></div>		
+<script>
+var d=new Date();var month=new Array(12);month[0]='Enero';month[1]='Febrero';month[2]='Marzo';month[3]='Abril';month[4]='Mayo';month[5]='Junio';month[6]='Julio';month[7]='Agosto';month[8]='Septiembre';month[9]='Octubre';month[10]='Noviembre';month[11]='Diciembre';var todaysDate=+d.getDate()+' de '+month[d.getUTCMonth()]+' del '+d.getUTCFullYear();
+document.getElementById('fechahoy').innerHTML='Hoy es: '+todaysDate;
+</script>
+</body>
+
+</html>
